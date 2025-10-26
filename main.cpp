@@ -24,6 +24,7 @@ int main()
         break;
     case 4:
         //VER CREDITOS
+        mostrarCreditos();
         break;
     case 5:
         //SALIR
