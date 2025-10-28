@@ -1,9 +1,13 @@
 #include <iostream>
 #include "funciones.h"
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main()
 {
+    srand(time(NULL)); ///PARA QUE RAND GENERE NUMEROS ALEATORIOS TODAS LAS PARTIDAS
+
     int opcion;
 
     ///MOSTRAR MENU
@@ -15,6 +19,7 @@ int main()
         switch(opcion){
     case 1:
         //NUEVA PARTIDA(1 JUGADOR)
+        jugarUnJugador();
         break;
     case 2:
         //NUEVA PARTIDA(2 JUGADORES)

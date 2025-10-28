@@ -1,13 +1,16 @@
 # depslib dependency file v1.0
 1761403916 source:c:\users\user\documents\c++ utn\practica3\tpgrupal\src\funciones.cpp
 
-1761496139 source:c:\users\user\documents\c++ utn\practica3\tpgrupal\main.cpp
+1761680963 source:c:\users\user\documents\c++ utn\practica3\tpgrupal\main.cpp
 	<iostream>
 	"funciones.h"
+	<cstdlib>
+	<ctime>
 
-1761495982 c:\users\user\documents\c++ utn\practica3\tpgrupal\include\funciones.h
+1761680189 c:\users\user\documents\c++ utn\practica3\tpgrupal\include\funciones.h
 
-1761496127 source:c:\users\user\documents\c++ utn\practica3\tpgrupal\funciones.cpp
+1761680956 source:c:\users\user\documents\c++ utn\practica3\tpgrupal\funciones.cpp
 	<iostream>
 	"funciones.h"
+	<cstdlib>
 

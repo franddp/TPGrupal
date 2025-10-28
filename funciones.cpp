@@ -1,11 +1,12 @@
 #include <iostream>
 #include "funciones.h"
+#include <cstdlib>
 using namespace std;
 
 //funcion que muestra el menu
 void mostrarMenu(){
     cout << "----------------------------------------------------------" <<endl;
-    cout << "*****************BIENVENIDO A LA GENERALA*****************"<< endl;
+    cout << "*****************BIENVENIDO A GENERALA*****************"<< endl;
     cout << "----------------------------------------------------------" <<endl;
     cout << "1. Nueva partida (1 jugador)" << endl;
     cout << "2. Nueva partida (2 jugadores)" << endl;
@@ -13,6 +14,20 @@ void mostrarMenu(){
     cout << "4. Ver creditos" << endl;
     cout << "5. Salir" << endl;
     cout << "----------------------------------------------------------" <<endl;
+}
+
+//jugar un jugador
+void jugarUnJugador(){
+    string nombre;
+    cout << "Ingrese su nombre: ";
+    cin >> nombre;
+}
+
+//funcion para tirar dados
+void tirarDados(int dados[], int cantidad){
+    for (int i=0; i< cantidad; i++){
+        dados[i] = 1+ (rand()% 6); //con modulo el resultado siempre es entre 0 y 5, se suma uno para q quiede entre 0 y 6
+    }
 }
 
 //funcion que muestra los creditos, nombre apellido y legajo
